@@ -6,24 +6,24 @@ import pygame
 pygame.mixer.init()
 
 
-click_x_sound = pygame.mixer.Sound("click_x.wav")
-click_o_sound = pygame.mixer.Sound("click_o.wav")
+click_x_sound = pygame.mixer.Sound("click.mp3")
+click_o_sound = pygame.mixer.Sound("click.mp3")
 
 
-x_win_row = pygame.mixer.Sound("x_win_row.wav")
-x_win_col = pygame.mixer.Sound("x_win_col.wav")
-x_win_diag = pygame.mixer.Sound("x_win_diag.wav")
+x_win_row = pygame.mixer.Sound("win row.mp3")
+x_win_col = pygame.mixer.Sound("win column.mp3")
+x_win_diag = pygame.mixer.Sound("win diag.mp3")
 
 
-o_win_row = pygame.mixer.Sound("o_win_row.wav")
-o_win_col = pygame.mixer.Sound("o_win_col.wav")
-o_win_diag = pygame.mixer.Sound("o_win_diag.wav")
+o_win_row = pygame.mixer.Sound("win row1.mp3")
+o_win_col = pygame.mixer.Sound("win column1.mp3")
+o_win_diag = pygame.mixer.Sound("win diag1.mp3")
 
 
-x_voice = pygame.mixer.Sound("x_wins_voice.mp3")
-o_voice = pygame.mixer.Sound("o_wins_voice.mp3")
+x_voice = pygame.mixer.Sound("x wins.mp3")
+o_voice = pygame.mixer.Sound("O wins.mp3")
 
-draw_sound = pygame.mixer.Sound("draw.wav")
+draw_sound = pygame.mixer.Sound("draw.mp3")
 
 root = tk.Tk()
 root.title("Smart Tic Tac Toe")
